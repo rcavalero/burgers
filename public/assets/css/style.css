@@ -1,0 +1,41 @@
+ body {
+   background-color: lightgrey;
+ }
+ 
+ li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  img {
+    height: 500px;
+    width: 500px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .burger-pic {
+    grid-column: span 5;
+    margin: 50px;
+  }
+  .burgers {
+    grid-column: span 4;
+  }
+  
